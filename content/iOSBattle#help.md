@@ -3,6 +3,8 @@ Date:2015-08-17
 Tags:iOS决
 ##入门攻略
 http://www.zhihu.com/question/20264108
+##五星视频
+http://www.zhihu.com/question/22914651
 ##补兵：
 响应式编程
 https://class.coursera.org/reactive-002/lecture
