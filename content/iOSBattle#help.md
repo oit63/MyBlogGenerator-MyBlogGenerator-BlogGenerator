@@ -19,9 +19,11 @@ https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/
 ###野外商店
 https://vimeo.com/search?q=iOS
 ##Gank
-####iOS6级考试
-http://blog.sunnyxx.com/2014/03/06/ios_exam_0/
+####[iOS6级考试](http://blog.sunnyxx.com/2014/03/06/ios_exam_0/)
+
 ##团战
+####[ViewController传值](http://www.tuicool.com/articles/uuAv2ia)
+
 
 #游戏商城
 ##符文
