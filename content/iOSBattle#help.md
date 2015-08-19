@@ -17,7 +17,9 @@ http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-
 http://www.raywenderlich.com/?s=uitableView&cof=FORID%3A10
 https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html#//apple_ref/doc/uid/TP40007451
 ###野外商店
-https://vimeo.com/search?q=iOS
+[vimo iOS](https://vimeo.com/search?q=iOS)
+
+[码农周刊](http://weekly.manong.io/issues/)
 ##Gank
 ####[iOS6级考试](http://blog.sunnyxx.com/2014/03/06/ios_exam_0/)
 
@@ -47,6 +49,7 @@ http://mobile.51cto.com/iphone-280299.htm
 ##铭牌
 ##换装
 ##英雄
+[iHappyHacking](http://hackinglife.cn/)
 
 
 
