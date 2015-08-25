@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
 
-    <title>  iOS
+    <title>  CoreData 还真是不好学呢
  | 帆布'Blog</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -74,9 +74,9 @@
       <section>
 
         <div class="row">
-          <div class=" span12  ">
+          <div class=" span9  ">
   <h1>
-    <a  href="/tag/ios.html" rel="bookmark" title="Permalink to iOS articles">iOS articles</a>
+    <a href="/coredata-huan-zhen-shi-bu-hao-xue-ni.html" rel="bookmark" title="Permalink to CoreData 还真是不好学呢">CoreData 还真是不好学呢</a>
   </h1>
           </div>
         </div>
@@ -84,15 +84,53 @@
         <div class="row">
 
 
-          <div class=" span12 " id="content" role="main">
-  <dl class="dl-horizontal">
-      <dt><abbr class="published" title="2015-08-25T00:00:00+08:00">二 25 八月 2015</abbr></dt>
-      <dd><a href="/coredata-huan-zhen-shi-bu-hao-xue-ni.html">CoreData 还真是不好学呢</a></dd>
-      <dt><abbr class="published" title="2015-08-18T00:00:00+08:00">二 18 八月 2015</abbr></dt>
-      <dd><a href="/gei-gankio-xie-ios-app.html">给 Gank.io 写 iOS APP</a></dd>
-  </dl>
+          <div class=" span9 " id="content" role="main">
+  
+
+  <div>
+    <blockquote>
+<p>CoreData
+CoreData 一句话真是无语了，封装了半天还是那么多乱七八糟的东西，什么一会儿有
+ context 了，一会儿又 objectModel 了，一会儿又 manager 了，你没妹啊？！</p>
+</blockquote>
+<p>不能好好写个协议调用就好了啊，还选择目录保存，还用 url，还找目录，还需要转换属性的类型，要做这么复杂吗？真是的，没意思。Apple 的天才们都死哪里去了？</p>
+<p>搞来存储个东西尼玛还需要获取个 context，然后增删改都要调它的 save：，不调用要死呀？不能写个封装类呀？</p>
+<p>查询也是够了，还要写个 request 请求类，
+什么 acsend 都要加在上面，取回的还是一个数组，这有没有啊？</p>
+<p>好了，然后写个 Singleton 搞定这些，把它们统统封装起来，对吧？</p>
+<p>然后在 AppDelegate 的两个回调方法里也要写上保存噢，对吧？</p>
+<p>不要害怕噢，core data 就这些东西，对吧？</p>
+<p>什么 .xcdatamodeld 什么 Entity， 什么 Property， 什么 Relationship， 生成 NSManagedObjectModel subclass 也很简单， 对吧？</p>
+<p>哈哈，当然 relationship这里我还不大明白， 等会儿看了BNR的书再来回答吧。
+总之CoreData入门就这些啦。</p>
+<p>明天写个KeyChain的注册页面，还要和老板讨论服务器的问题呢。</p>
+  </div>
+
+
+
           </div>
 
+            <div class="span3">
+  <div class="well">
+
+    <p><abbr class="fa fa-calendar" title="2015-08-25T00:00:00+08:00"> 二 25 八月 2015</abbr></p>
+
+      <p><address class="fa fa-user"> By <a href="/author/fab.html" rel="author">FAB</a></address></p>
+
+
+    <hr/>
+
+      <p>
+              <a href="/category/misc.html" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="14 articles in this category">misc</a>
+            <a href="/tag/ios.html" rel="tooltip" class="label" data-placement="right" data-original-title="2 articles with this tag">iOS</a>
+      </p>
+      <hr/>
+
+
+
+  </div>
+              
+            </div>
 
         </div>
       </section>
