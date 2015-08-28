@@ -57,8 +57,7 @@
 <li ><a href="/">C/C++</a></li>
 <li ><a href="/">Python</a></li>
 <li ><a href="/">Prolog</a></li>
-<li ><a href="/pages/about-me.html">About</a></li>
-                  <li ><a href="/pages/about-me.html">About Me</a></li>
+<li ><a href="/">About</a></li>
             </ul>
               <form class="navbar-search pull-right" action="http://www.google.com" target="_blank">
                 <input type="text" name="q" class="search-query span2" placeholder="Search"/>
@@ -86,6 +85,33 @@
 
       <h2>Articles</h2>
 
+      <article>
+        <header>
+          <h2><a href="/house-archietecture.html" rel="bookmark" title="Permalink to House Archietecture">House Archietecture</a></h2>
+        </header>
+        <div><p>做完做了架构的 House 架构的设计， 因为是一个人要做完产品 设计 UI 程序 测试 的事情， 而且需要在 9 月 15 日之前完成产品的雏形。</p>
+<p>我前一天做了产品分析， 现在就是设计的地方， 昨晚画了 10 张交互设计图， 产品的交互有了个大体的雏形。 UI 方面， 由于美工能力的欠缺， 要做出一个有 Biger 的产品， 我也只能够说是尽量采用动画来替代 UI 了。</p>
+<p>程序方面工作确实就要重一些了。 从现有的图表来看， 要生成的 View 数目比较多， 是目前我做过的项目里 View 最多的一个， 另外动画效果尽管代码多是从 code4App 上寻找的， 但是实际集成的时候会遇到什么问题谁也说不清。 </p>
+<p>其实我倒是很愿意采用 BDD 开发， 不过因为我的 BDD 水平也是有自知， 不希望为当前的项目添加不稳定因素， 所以等我做完这个项目还需要学习 BDD ...</p></div>
+        <div><a class="btn btn-primary" href="/house-archietecture.html"><strong>➟ Read more</strong></a></div>
+      </article>
+      <hr/>
+      <article>
+        <header>
+          <h2><a href="/ios-core-data.html" rel="bookmark" title="Permalink to iOS Core Data">iOS Core Data</a></h2>
+        </header>
+        <div><p>今天看了三本书，两本 Pro，一本 BigNerd。
+不过好在还是 BigNerd讲得清楚，配套了源码，还有社区的 <a href="http://forums.bignerdranch.com/viewtopic.php?f=504&amp;t=8393">Challenge解决方案</a>, 我才能把 Core Data 在这四天内搞得差不多。</p>
+<p>将 Core Data 搞定以后，我的数据结构就好了一大半了，之后就是配合 View 做相关的显示，以及相关操作了。</p>
+<p>之后就是注册页面的实现， 好在有一本 Pro可以参照， 还有之前实习时候的工程也可借鉴了，比如 KeyChain部分。</p>
+<p>再接着就是整合多种特效了，将各种需要的效果整合在一起，最后就是REST的相关工作了。</p>
+<p>做好这几块再将Socket整合进来，使应用可以工作就行啦。</p>
+<p>另外模型设置上，明天还需要就这一点与家门讨论一下，对于监控信息的展示也是一个问题。</p>
+<p>比如监控信息也是一种model，一个item可以对应有多个监控信息，就是many to one 类型啦。</p>
+<p>这样一来它的关系和item与assetType就类似啦。</p></div>
+        <div><a class="btn btn-primary" href="/ios-core-data.html"><strong>➟ Read more</strong></a></div>
+      </article>
+      <hr/>
       <article>
         <header>
           <h2><a href="/coredata-huan-zhen-shi-bu-hao-xue-ni.html" rel="bookmark" title="Permalink to CoreData 还真是不好学呢">CoreData 还真是不好学呢</a></h2>
@@ -239,43 +265,6 @@ https://class.coursera.org/reactive-002/lecture</p>
 <li>今天偶然的机会，我打开了书签中的《钟吕传道集》，首先我发现了里面抽象层次的东西确实不少，不论是讲解天地交合过程的逻辑，还是五行生克，母子夫妻关系，都是重点集中在看不见摸不着的层次。</li>
 <li>其次，《钟吕》一书中还点醒了我，应证了我以前不敢下结论的一个想法，道于一切之中，道成一切 ...</li></ol></div>
         <div><a class="btn btn-primary" href="/sicpzhong-de-chou-xiang-si-wei.html"><strong>➟ Read more</strong></a></div>
-      </article>
-      <hr/>
-      <article>
-        <header>
-          <h2><a href="/sockettcpbian-cheng-de-mi-wu.html" rel="bookmark" title="Permalink to Socket（TCP）编程的迷雾">Socket（TCP）编程的迷雾</a></h2>
-        </header>
-        <div><blockquote>
-<p>前两天学习了SICP的开头部分（到1.2），但是帮助已经很明显了，现在我对过程的处理能力较之以往有明显提升，所以推荐大家都来看SICP，学习Lisp哦！</p>
-</blockquote>
-<p>今天的时间比较满，主要是对手机端和服务器端以及控制LED灯的情景进行了模拟，先是在iPhone端的同一个界面进行模拟，从开关同步开始，逐步扩展代码，在成功模拟了消息传递控制以后，又使用Socket与服务端进行了通信。最后发现了几样东西。</p>
-<p>1）原来Socket协议只能是Client方主动发送消息，然后服务器才能回复消息。</p>
-<p>2）而且Socket数据流中的数据是粘滞的，几个数据分开发送，如果另一端没有接收的话，则会粘在一起。</p>
-<p>1）对于这种情况，如果我希望服务端可以发送消息给client，那么我可以保持一个心跳，心跳时间很短，然后服务器发送的消息就可以传到client。</p>
-<p>对于Socket，如果自己不太清楚它的底层结构，那么很容易出问题了是搞不懂的。</p>
-<p>比如就上面所描述的几样问题，刚才我又模拟了一个MAC上的测试工具，建立了一套互通的Socket，发现服务器可以给客户端直接发送信息，而不是我1）描述的那样，是不需要每次都由客户端发消息来的。</p>
-<p>那么问题就出在了我使用的第三方库AsynSocket上面。</p></div>
-        <div><a class="btn btn-primary" href="/sockettcpbian-cheng-de-mi-wu.html"><strong>➟ Read more</strong></a></div>
-      </article>
-      <hr/>
-      <article>
-        <header>
-          <h2><a href="/kan-fa-bao-zi-yuan-tie.html" rel="bookmark" title="Permalink to 看法宝——资源帖">看法宝——资源帖</a></h2>
-        </header>
-        <div><p>第一个</p>
-<p><a href="http://www.oschina.net/question/2406038_244060">开源中国</a></p>
-<p>上面有iOS的专栏，上面网友也很热心</p>
-<p>第二个我存一下</p>
-<p><a href="http://openpeer.org">openPeer</a></p>
-<p>做P2P的SDK，上面网友推荐的，</p>
-<p>文档我还没看过，留着看。</p>
-<div class="highlight"><pre>另外吐槽一下，现在这个公司啥都不行，待遇也不好，出技术的老板老催进度，给压力，不过好在出钱的老板目前还好沟通，所以暂时就在这呆着，还能阅读一下SICP，写写博客，这样对我的成长还是很有帮助的。
-</pre></div>
-
-
-<p>第三个是我做Socket遇到问题时候准备用的。因为之前做DEMO用的是GCDAsyncSocket，出了一些问题，所以这次要尝试一下官网让使用的了。</p>
-<p><a href="http://blog.csdn.net/jeepxiaozi/article/details/9154925">JeepBoy's Blog</a></p></div>
-        <div><a class="btn btn-primary" href="/kan-fa-bao-zi-yuan-tie.html"><strong>➟ Read more</strong></a></div>
       </article>
       <hr/>
 
