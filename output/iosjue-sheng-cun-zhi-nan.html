@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
 
-    <title>  Socket（TCP）编程的迷雾
+    <title>  《iOS决》生存指南
  | 帆布'Blog</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -75,7 +75,7 @@
         <div class="row">
           <div class=" span9  ">
   <h1>
-    <a href="/sockettcpbian-cheng-de-mi-wu.html" rel="bookmark" title="Permalink to Socket（TCP）编程的迷雾">Socket（TCP）编程的迷雾</a>
+    <a href="/iosjue-sheng-cun-zhi-nan.html" rel="bookmark" title="Permalink to 《iOS决》生存指南">《iOS决》生存指南</a>
   </h1>
           </div>
         </div>
@@ -87,16 +87,83 @@
   
 
   <div>
-    <blockquote>
-<p>前两天学习了SICP的开头部分（到1.2），但是帮助已经很明显了，现在我对过程的处理能力较之以往有明显提升，所以推荐大家都来看SICP，学习Lisp哦！</p>
-</blockquote>
-<p>今天的时间比较满，主要是对手机端和服务器端以及控制LED灯的情景进行了模拟，先是在iPhone端的同一个界面进行模拟，从开关同步开始，逐步扩展代码，在成功模拟了消息传递控制以后，又使用Socket与服务端进行了通信。最后发现了几样东西。</p>
-<p>1）原来Socket协议只能是Client方主动发送消息，然后服务器才能回复消息。</p>
-<p>2）而且Socket数据流中的数据是粘滞的，几个数据分开发送，如果另一端没有接收的话，则会粘在一起。</p>
-<p>1）对于这种情况，如果我希望服务端可以发送消息给client，那么我可以保持一个心跳，心跳时间很短，然后服务器发送的消息就可以传到client。</p>
-<p>对于Socket，如果自己不太清楚它的底层结构，那么很容易出问题了是搞不懂的。</p>
-<p>比如就上面所描述的几样问题，刚才我又模拟了一个MAC上的测试工具，建立了一套互通的Socket，发现服务器可以给客户端直接发送信息，而不是我1）描述的那样，是不需要每次都由客户端发消息来的。</p>
-<p>那么问题就出在了我使用的第三方库AsynSocket上面。</p>
+    <h2>入门攻略</h2>
+<p>http://www.zhihu.com/question/20264108</p>
+<h2>五星文章</h2>
+<p>http://www.zhihu.com/question/22914651</p>
+<h2>补充经验：</h2>
+<p>响应式编程
+https://class.coursera.org/reactive-002/lecture</p>
+<h2>获得额外经验</h2>
+<h4>响应式编程<a href="http://www.raywenderlich.com/62796/reactivecocoa-tutorial-pt2">CocoaReactive</a></h4>
+<h4>NSOperation</h4>
+<p>http://blog.xcodev.com/archives/operation-queue-intro/</p>
+<h4>Auto－layout</h4>
+<p>http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1</p>
+<h4>UITableView</h4>
+<p><a href="http://www.raywenderlich.com/?s=uitableView&amp;cof=FORID%3A10">Raywenderlich TabelView</a></p>
+<p><a href="https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html#//apple_ref/doc/uid/TP40007451">Table View Programming Guide for iOS</a></p>
+<p><a href="http://www.cocoachina.com/industry/20130607/6358.html">Github上的热门iOS开源项目</a></p>
+<h3>野外生存经验</h3>
+<p><a href="https://vimeo.com/search?q=iOS">Vimeo Video</a>
+<a href="http://memect.com/">好东西传送门</a>
+<a href="http://weekly.manong.io/issues/">程序员周刊</a></p>
+<h2>Gank</h2>
+<h4><a href="http://blog.sunnyxx.com/2014/03/06/ios_exam_0/">iOS 6 级考试</a></h4>
+<h4><a href="http://www.cocoachina.com/industry/20140218/7841.html">iOS BDD 开发</a></h4>
+<h4><a href="http://www.cocoachina.com/programmer/20150805/12861.html">理解函数式编程</a></h4>
+<h2>规模开发</h2>
+<h4><a href="http://www.tuicool.com/articles/uuAv2ia">ViewController 传值</a></h4>
+<h4><a href="http://blog.csdn.net/colorapp/article/details/47007431">单元测试</a></h4>
+<h4><a href="http://www.cocoachina.com/industry/20140708/9066.html">应用截图</a></h4>
+<h1>生存教练</h1>
+<h4><a href="http://www.cocoachina.com/ios/">CocoaChina iOS板块</a></h4>
+<h4><a href="http://www.raywenderlich.com">Ray Wenderlich</a></h4>
+<h2>生存哲理</h2>
+<h3>主动性经验</h3>
+<div class="highlight"><pre>    雕文
+</pre></div>
+
+
+<p>SICP</p>
+<p>CSAPP</p>
+<div class="highlight"><pre>    光辉
+</pre></div>
+
+
+<p>AT(算法思想)</p>
+<div class="highlight"><pre>    铭文
+</pre></div>
+
+
+<h3>回复经验</h3>
+<div class="highlight"><pre>    雕文
+</pre></div>
+
+
+<h5>iOS多线程初体验</h5>
+<p>http://mobile.51cto.com/iphone-280299.htm</p>
+<h2>我是大腿</h2>
+<p><a href="http://www.hackinglife.cn/">我的眼里只有代码</a> －－iHappyHacking</p>
+<p><a href="http://blog.callmewhy.com/">汪海</a></p>
+<p><a href="http://zhonghuan.info">钟桓</a> －－清华大学念研究生</p>
+<p><a href="http://supermao.cn/">空之境界</a></p>
+<p><a href="http://benbeng.leanote.com/">Benbeng</a></p>
+<p><a href="http://blog.nswebfrog.com">unkown</a></p>
+<p><a href="http://limboy.me/ios/2014/01/05/ios-rest-client-implementation.html">Limboy</a>--花瓣网iOS</p>
+<p><a href="http://yannickloriot.com/2012/03/magicalrecord-how-to-make-programming-with-core-data-pleasant/">Yannick Loriot</a> －－MagicRecord作者</p>
+<p><a href="http://bibibi.me">bibibi</a></p>
+<p><a href="http://www.dejohndong.com">DeJohn Dong</a></p>
+<p><a href="http://www.fabriziobrancati.com">Fabrizio Brancati</a></p>
+<p><a href="http://www.skyfox.org">天狐</a></p>
+<p><a href="soff.es">Sam Soffes</a></p>
+<h2>Mac软件站</h2>
+<p><a href="http://www.orsoon.com/Mac/62084.html">未来软件站</a></p>
+<h2>Buffer</h2>
+<p>http://code4app.com/plugin.php?id=ios_code_list&amp;&amp;page=10</p>
+<p><a href="http://www.cocoachina.com/ios/20150422/11632.html">autolayout 心得</a></p>
+<p><a href="https://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys">ssh-keys osc</a></p>
+<p><a href="http://old.code4app.com/ios/iOSSharedViewTransition/54057c24933bf0bb3a8b5385">code4app</a></p>
   </div>
 
 
@@ -106,7 +173,7 @@
             <div class="span3">
   <div class="well">
 
-    <p><abbr class="fa fa-calendar" title="2015-08-13T00:00:00+08:00"> 四 13 八月 2015</abbr></p>
+    <p><abbr class="fa fa-calendar" title="2015-08-17T00:00:00+08:00"> 一 17 八月 2015</abbr></p>
 
       <p><address class="fa fa-user"> By <a href="/author/fab.html" rel="author">FAB</a></address></p>
 
@@ -115,7 +182,7 @@
 
       <p>
               <a href="/category/misc.html" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="13 articles in this category">misc</a>
-            <a href="/tag/tcp.html" rel="tooltip" class="label" data-placement="right" data-original-title="1 article with this tag">TCP</a>
+            <a href="/tag/iosjue.html" rel="tooltip" class="label" data-placement="right" data-original-title="1 article with this tag">iOS决</a>
       </p>
       <hr/>
 
