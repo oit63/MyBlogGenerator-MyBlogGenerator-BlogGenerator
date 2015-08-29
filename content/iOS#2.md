@@ -58,5 +58,8 @@ Tag:Life
 
 牛人推荐的big nerd书籍，rayW的百科全书，法国YourDeveloper Peter van de Put的ios Pro系列，这些都是值的反复吸收的源泉。
 
+##计算机
+计算机是一门关于因果的科学
+
 最后了，来一张干货集中营的图镇楼。
 ![gank.io](http://ww3.sinaimg.cn/large/7a8aed7bgw1ev7o8srkp5j20gz0pfads.jpg)

@@ -58,7 +58,15 @@
 <li ><a href="/">C/C++</a></li>
 <li ><a href="/">Python</a></li>
 <li ><a href="/">Prolog</a></li>
+<<<<<<< HEAD
+<<<<<<< HEAD
 <li ><a href="/pages/about-me.html">About</a></li>
+=======
+<li ><a href="/">About</a></li>
+>>>>>>> origin/master
+=======
+<li ><a href="/">About</a></li>
+>>>>>>> origin/master
             </ul>
               <form class="navbar-search pull-right" action="http://www.google.com" target="_blank">
                 <input type="text" name="q" class="search-query span2" placeholder="Search"/>
@@ -91,6 +99,72 @@
 
       <article>
         <header>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/master
+          <h2><a href="/sockettcpbian-cheng-de-mi-wu.html" rel="bookmark" title="Permalink to Socket（TCP）编程的迷雾">Socket（TCP）编程的迷雾</a></h2>
+        </header>
+        <div><blockquote>
+<p>前两天学习了SICP的开头部分（到1.2），但是帮助已经很明显了，现在我对过程的处理能力较之以往有明显提升，所以推荐大家都来看SICP，学习Lisp哦！</p>
+</blockquote>
+<p>今天的时间比较满，主要是对手机端和服务器端以及控制LED灯的情景进行了模拟，先是在iPhone端的同一个界面进行模拟，从开关同步开始，逐步扩展代码，在成功模拟了消息传递控制以后，又使用Socket与服务端进行了通信。最后发现了几样东西。</p>
+<p>1）原来Socket协议只能是Client方主动发送消息，然后服务器才能回复消息。</p>
+<p>2）而且Socket数据流中的数据是粘滞的，几个数据分开发送，如果另一端没有接收的话，则会粘在一起。</p>
+<p>1）对于这种情况，如果我希望服务端可以发送消息给client，那么我可以保持一个心跳，心跳时间很短，然后服务器发送的消息就可以传到client。</p>
+<p>对于Socket，如果自己不太清楚它的底层结构，那么很容易出问题了是搞不懂的。</p>
+<p>比如就上面所描述的几样问题，刚才我又模拟了一个MAC上的测试工具，建立了一套互通的Socket，发现服务器可以给客户端直接发送信息，而不是我1）描述的那样，是不需要每次都由客户端发消息来的。</p>
+<p>那么问题就出在了我使用的第三方库AsynSocket上面。</p></div>
+        <div><a class="btn btn-primary" href="/sockettcpbian-cheng-de-mi-wu.html"><strong>➟ Read more</strong></a></div>
+      </article>
+      <hr/>
+      <article>
+        <header>
+          <h2><a href="/kan-fa-bao-zi-yuan-tie.html" rel="bookmark" title="Permalink to 看法宝——资源帖">看法宝——资源帖</a></h2>
+        </header>
+        <div><p>第一个</p>
+<p><a href="http://www.oschina.net/question/2406038_244060">开源中国</a></p>
+<p>上面有iOS的专栏，上面网友也很热心</p>
+<p>第二个我存一下</p>
+<p><a href="http://openpeer.org">openPeer</a></p>
+<p>做P2P的SDK，上面网友推荐的，</p>
+<p>文档我还没看过，留着看。</p>
+<div class="highlight"><pre>另外吐槽一下，现在这个公司啥都不行，待遇也不好，出技术的老板老催进度，给压力，不过好在出钱的老板目前还好沟通，所以暂时就在这呆着，还能阅读一下SICP，写写博客，这样对我的成长还是很有帮助的。
+</pre></div>
+
+
+<p>第三个是我做Socket遇到问题时候准备用的。因为之前做DEMO用的是GCDAsyncSocket，出了一些问题，所以这次要尝试一下官网让使用的了。</p>
+<p><a href="http://blog.csdn.net/jeepxiaozi/article/details/9154925">JeepBoy's Blog</a></p></div>
+        <div><a class="btn btn-primary" href="/kan-fa-bao-zi-yuan-tie.html"><strong>➟ Read more</strong></a></div>
+      </article>
+      <hr/>
+      <article>
+        <header>
+          <h2><a href="/kan-sicptu-cao-bian-cheng-ru-men.html" rel="bookmark" title="Permalink to 看SICP吐槽编程入门">看SICP吐槽编程入门</a></h2>
+        </header>
+        <div><p>时间过得好慢，自从来了新公司，工资还没发过。先按下不表，我们先来看Mit的SCICP。
+昨天是看到阶乘那里，在阶乘即书中的1.1.8</p>
+<div class="highlight"><pre>说实话，今天读的内容确实有限。一是因为两个老板中午闲来没事，在我办公的地方开会，午觉也是后来补的，下午就直接少了一个小时看书时间。
+后来又继续研究iOS编程的Socket编程，又花费了不少时间。
+晚上回去还得继续看。
+</pre></div>
+
+
+<p>所以，我们接着来看SICP。
+今天阅读只是到了1.2.1节，其中1.1.8节的函数树形分析法对我的启发很大，我发现利用同样的树形分析法可以有效地理清各个过程之间的联系，有了这个利器，我马上用来分析了iOS的Socket编程过程，这两天折腾我的Socket编程也不再那么可怕了。所以学习SICP给我带来的东西还蛮多蛮有用处的，特别是Lisp这种过程性语言，从某些方面提高了我对日常问题的分析能力。</p>
+<p>说完这些再来谈谈今天的感受，SICP其实在书中讲解LISP的过程里，也在教授着学习成长的通法，比如书中处处都在用学会下棋的过程来打比方，讲到了，我们学习一款语言，那么光光掌握它的规则是远远不够的，如同下象棋一样，还要知道开局，策略，以及每一步的后果。</p>
+<p>并且书中强调，我们的学习成长就是在从观察这些后果的过程中，学会从看到的后果反推回去，学会调整行为来影响后果。这不得不说是一种通用的方法论。</p>
+<p>还记得SICP视频中强调的掌握一门语言的几个基本原则吗 ...</p></div>
+        <div><a class="btn btn-primary" href="/kan-sicptu-cao-bian-cheng-ru-men.html"><strong>➟ Read more</strong></a></div>
+      </article>
+      <hr/>
+      <article>
+        <header>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
           <h2><a href="/jie-hong-ji-suan-ji-cheng-xu-de-gou-zao-he-jie-shi-sicp.html" rel="bookmark" title="Permalink to 接触《计算机程序的构造和解释》(SICP)">接触《计算机程序的构造和解释》(SICP)</a></h2>
         </header>
         <div><blockquote>

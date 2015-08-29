@@ -53,7 +53,7 @@ MENUITEMS = (
     ('C/C++','/'),
     ('Python','/'),
     ('Prolog','/'),
-    ('About', '/pages/about-me.html'),
+    ('About', '/'),
 )
 
 GOOGLE_SEARCH = '006364432850422186161:7vbi34hyqyq'

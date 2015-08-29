@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
 
-    <title>  Socket（TCP）编程的迷雾
+    <title>  House Archietecture
  | 帆布'Blog</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -58,15 +58,7 @@
 <li ><a href="/">C/C++</a></li>
 <li ><a href="/">Python</a></li>
 <li ><a href="/">Prolog</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<li ><a href="/pages/about-me.html">About</a></li>
-=======
 <li ><a href="/">About</a></li>
->>>>>>> origin/master
-=======
-<li ><a href="/">About</a></li>
->>>>>>> origin/master
             </ul>
               <form class="navbar-search pull-right" action="http://www.google.com" target="_blank">
                 <input type="text" name="q" class="search-query span2" placeholder="Search"/>
@@ -83,7 +75,7 @@
         <div class="row">
           <div class=" span9  ">
   <h1>
-    <a href="/sockettcpbian-cheng-de-mi-wu.html" rel="bookmark" title="Permalink to Socket（TCP）编程的迷雾">Socket（TCP）编程的迷雾</a>
+    <a href="/house-archietecture.html" rel="bookmark" title="Permalink to House Archietecture">House Archietecture</a>
   </h1>
           </div>
         </div>
@@ -95,16 +87,22 @@
   
 
   <div>
-    <blockquote>
-<p>前两天学习了SICP的开头部分（到1.2），但是帮助已经很明显了，现在我对过程的处理能力较之以往有明显提升，所以推荐大家都来看SICP，学习Lisp哦！</p>
-</blockquote>
-<p>今天的时间比较满，主要是对手机端和服务器端以及控制LED灯的情景进行了模拟，先是在iPhone端的同一个界面进行模拟，从开关同步开始，逐步扩展代码，在成功模拟了消息传递控制以后，又使用Socket与服务端进行了通信。最后发现了几样东西。</p>
-<p>1）原来Socket协议只能是Client方主动发送消息，然后服务器才能回复消息。</p>
-<p>2）而且Socket数据流中的数据是粘滞的，几个数据分开发送，如果另一端没有接收的话，则会粘在一起。</p>
-<p>1）对于这种情况，如果我希望服务端可以发送消息给client，那么我可以保持一个心跳，心跳时间很短，然后服务器发送的消息就可以传到client。</p>
-<p>对于Socket，如果自己不太清楚它的底层结构，那么很容易出问题了是搞不懂的。</p>
-<p>比如就上面所描述的几样问题，刚才我又模拟了一个MAC上的测试工具，建立了一套互通的Socket，发现服务器可以给客户端直接发送信息，而不是我1）描述的那样，是不需要每次都由客户端发消息来的。</p>
-<p>那么问题就出在了我使用的第三方库AsynSocket上面。</p>
+    <p>做完做了架构的 House 架构的设计， 因为是一个人要做完产品 设计 UI 程序 测试 的事情， 而且需要在 9 月 15 日之前完成产品的雏形。</p>
+<p>我前一天做了产品分析， 现在就是设计的地方， 昨晚画了 10 张交互设计图， 产品的交互有了个大体的雏形。 UI 方面， 由于美工能力的欠缺， 要做出一个有 Biger 的产品， 我也只能够说是尽量采用动画来替代 UI 了。</p>
+<p>程序方面工作确实就要重一些了。 从现有的图表来看， 要生成的 View 数目比较多， 是目前我做过的项目里 View 最多的一个， 另外动画效果尽管代码多是从 code4App 上寻找的， 但是实际集成的时候会遇到什么问题谁也说不清。 </p>
+<p>其实我倒是很愿意采用 BDD 开发， 不过因为我的 BDD 水平也是有自知， 不希望为当前的项目添加不稳定因素， 所以等我做完这个项目还需要学习 BDD。</p>
+<p>CSAPP 和 SICP 对我的提升作用还是比较大的， iOS Programming: Big Nerd Ranch Guide 也是帮助很大， 项目的第一个版本几乎就是按照它的 23 章复刻的， 还参照了官方论坛上的若干个 Challenge Solution， 做了版本升级。</p>
+<h2>Mark</h2>
+<p>等会 Ganker 们又要更新资源鸟， 我先把资源存好</p>
+<p><a href="http://www.jianshu.com/p/22adf62ea491">UICollectionView自定义布局教程:Pinterest (1)</a></p>
+<p><a href="https://github.com/luugiathuy/GTScrollNavigationBar">A scrollable UINavigationBar that follows a UIScrollView</a></p>
+<p><a href="https://github.com/antiguab/BALoadingView">A UIView that offers several loading animations(看着蛮好玩的样纸)</a></p>
+<h2>PS. Gank.io</h2>
+<p>刚上了 Gank.io， 高兴地发现 iOS 文章小节被提到了 Android 之前，看来 __weak__Point 的加入还是挺有建设性的嘛！</p>
+<p>哈哈，看来我也需要加紧把 Gank.io
+的客户端跟上了呢！</p>
+<p>话说回来， Gank.io 的妹纸图还是挺不错的哈， 只不过想跟编辑提一下， 为毛不来点 36D 的呢？ 为毛线都是平胸小妹子呢， 不过我想说的是，我喜欢！ 干得漂亮！ </p>
+<p><img alt="Gank" src="http://ww1.sinaimg.cn/large/7a8aed7bgw1evgwbi4o1oj20hq0qomzp.jpg" /></p>
   </div>
 
 
@@ -114,7 +112,7 @@
             <div class="span3">
   <div class="well">
 
-    <p><abbr class="fa fa-calendar" title="2015-08-13T00:00:00+08:00"> 四 13 八月 2015</abbr></p>
+    <p><abbr class="fa fa-calendar" title="2015-08-26T00:00:00+08:00"> 三 26 八月 2015</abbr></p>
 
       <p><address class="fa fa-user"> By <a href="/author/fab.html" rel="author">FAB</a></address></p>
 
@@ -122,16 +120,7 @@
     <hr/>
 
       <p>
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <a href="/category/misc.html" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="13 articles in this category">misc</a>
-=======
               <a href="/category/misc.html" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="16 articles in this category">misc</a>
->>>>>>> origin/master
-=======
-              <a href="/category/misc.html" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="16 articles in this category">misc</a>
->>>>>>> origin/master
-            <a href="/tag/tcp.html" rel="tooltip" class="label" data-placement="right" data-original-title="1 article with this tag">TCP</a>
       </p>
       <hr/>
 
