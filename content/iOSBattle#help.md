@@ -3,17 +3,24 @@ Date:2015-08-17
 Tags:iOS决
 ##入门攻略
 http://www.zhihu.com/question/20264108
-##五星文章
 http://www.zhihu.com/question/22914651
+##五星视频
+[IM开发——CSDN](http://edu.csdn.net/course/detail/532)
+
+
 ##补充经验：
-响应式编程
-https://class.coursera.org/reactive-002/lecture
+[响应式编程_原理课](https://class.coursera.org/reactive-002/lecture)
 ##获得额外经验
 ####响应式编程[CocoaReactive](http://www.raywenderlich.com/62796/reactivecocoa-tutorial-pt2)
 ####NSOperation
-http://blog.xcodev.com/archives/operation-queue-intro/
+[NSOperation](http://blog.xcodev.com/archives/operation-queue-intro/)
+
 ####Auto－layout
-http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1
+[RayWenderlich](http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1)
+
+
+[autolayout 心得](http://www.cocoachina.com/ios/20150422/11632.html)
+
 ####UITableView
 [Raywenderlich TabelView](http://www.raywenderlich.com/?s=uitableView&cof=FORID%3A10)
 
@@ -32,7 +39,10 @@ http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-
 ##规模开发
 ####[ViewController 传值](http://www.tuicool.com/articles/uuAv2ia)
 
-####[单元测试](http://blog.csdn.net/colorapp/article/details/47007431)
+####BDD
+[单元测试](http://blog.csdn.net/colorapp/article/details/47007431)
+
+[BDD 简书](http://www.jianshu.com/p/7e3f197504c1)
 
 ####[应用截图](http://www.cocoachina.com/industry/20140708/9066.html)
 #生存教练
@@ -58,6 +68,8 @@ AT(算法思想)
 http://mobile.51cto.com/iphone-280299.htm
 
 ##我是大腿
+[medium Co.](https://medium.com/ios-os-x-development)
+
 
 [我的眼里只有代码](http://www.hackinglife.cn/) －－iHappyHacking
 
@@ -76,6 +88,7 @@ http://mobile.51cto.com/iphone-280299.htm
 
 [Yannick Loriot](http://yannickloriot.com/2012/03/magicalrecord-how-to-make-programming-with-core-data-pleasant/) －－MagicRecord作者
 
+[oneVcat](http://onevcat.com/#blog)
 
 [bibibi](http://bibibi.me)
 
@@ -87,16 +100,40 @@ http://mobile.51cto.com/iphone-280299.htm
 
 [Sam Soffes](soff.es)
 
+[Cheng Way](http://chengway.in/)
 
+[南峰子](http://southpeak.github.io)
+
+##大腿文章
+[Advanced Core Animation中译版](http://zsisme.gitbooks.io/ios-/content/index.html)
+
+[如何优雅的进行页面间的跳转_ 高楠](http://gaonan.me/2015/07/23/如何优雅的进行页面间的跳转/#more)
+
+[BreakPoint LLDB Chisel](http://blog.csdn.net/colorapp/article/details/47089549)
+
+###字符串判断
+[是否包含中文](http://blog.csdn.net/shouqiangwei/article/details/23735685)
+
+###小技巧
+[iOS开发的一些奇技淫巧](http://www.justzht.com/ioskai-fa-de-xie-qi-qiao-yin-ji/)
+##同行
+[火辣健身](http://yyny.me)
 ##Mac软件站
 [未来软件站](http://www.orsoon.com/Mac/62084.html)
+##Android Stack
+[YouMu178](http://youmu178.com)
 
+[DaiMaJia 代码家](http://blog.daimajia.com/android-library-collection/)
 ##Buffer
-
-http://code4app.com/plugin.php?id=ios_code_list&&page=10
-
-[autolayout 心得](http://www.cocoachina.com/ios/20150422/11632.html)
 
 [ssh-keys osc](https://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys)
 
 [code4app](http://old.code4app.com/ios/iOSSharedViewTransition/54057c24933bf0bb3a8b5385)
+##泉水
+[JobDeer](JobDeer.com)
+
+##附加
+[Escape](http://fight.pcgames.com.cn/warcraft/dota/gl/1108/2291302_all.html#content_page_1)
+
+##Manage 
+[10 tips tech Leader](http://www.infoq.com/cn/articles/tech-leader-10-tips)
