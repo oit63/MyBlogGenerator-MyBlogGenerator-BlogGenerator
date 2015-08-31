@@ -104,12 +104,15 @@ http://mobile.51cto.com/iphone-280299.htm
 
 [南峰子](http://southpeak.github.io)
 
+###前端设计
+[KimBlog－－台湾工程师](http://kimix.name/如果沒有自學的能力，還是轉行吧/)
 ##大腿文章
 [Advanced Core Animation中译版](http://zsisme.gitbooks.io/ios-/content/index.html)
 
 [如何优雅的进行页面间的跳转_ 高楠](http://gaonan.me/2015/07/23/如何优雅的进行页面间的跳转/#more)
 
 [BreakPoint LLDB Chisel](http://blog.csdn.net/colorapp/article/details/47089549)
+
 
 ###字符串判断
 [是否包含中文](http://blog.csdn.net/shouqiangwei/article/details/23735685)
