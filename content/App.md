@@ -17,3 +17,4 @@ Tags:App
 [Vim的配置网站](http://blog.csdn.net/fudesign2008/article/details/18311895)
 
 
+安装Vim最主要的障碍，我认为是文件下载不畅，这个障碍给使用者的印象就不是那么友好。
