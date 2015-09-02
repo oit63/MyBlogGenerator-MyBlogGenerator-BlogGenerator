@@ -55,7 +55,10 @@ Tags:iOS决
 #技术原理
 ##CS入门
 
-SICP（MIT）
+###SICP（MIT）
+《Structure and Interpretation of Computer Programs (Abelson & Sussman) | 计算机程序的构造和解释》
+[online videos of lectures](http://www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/)
+[complete text online](complete text online)
 
 CSAPP（CMU）
 
@@ -92,6 +95,8 @@ AT(算法思想)
 
 #大腿
 ##iOS
+[Samuel E. Giddins](http://segiddins.me/) _ CocoaPod, Realm 作者 
+
 [medium Co.](https://medium.com/ios-os-x-development)
 
 [我的眼里只有代码](http://www.hackinglife.cn/) _ iHappyHacking
@@ -153,6 +158,10 @@ AT(算法思想)
 ##代码栈
 [code4app](http://old.code4app.com/ios/iOSSharedViewTransition/54057c24933bf0bb3a8b5385)
 
+[懒人代码库](http://www.lanrenios.com)
+
+[阳和移动开发](http://mobile-open.com)
+
 ##字符串判断
 [NSString 中是否包含中文](http://blog.csdn.net/shouqiangwei/article/details/23735685)
 
@@ -160,8 +169,11 @@ AT(算法思想)
 #小技巧
 [iOS开发的一些奇技淫巧](http://www.justzht.com/ioskai-fa-de-xie-qi-qiao-yin-ji/)
 
+[iOS开发的22个奇葩技巧](http://bbs.itcast.cn/thread-51807-1-1.html)
+
 [ssh-keys 生成方法](https://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys) _ 开源中国
 
+[让你的 OSX 拥有完整的 Emacs Binding](https://ruby-china.org/topics/12479)
 
 #Mac软件站
 [未来软件站](http://www.orsoon.com/Mac/62084.html)
