@@ -21,10 +21,10 @@ Tags:iOS决
 
 ##响应式编程
 [响应式编程_原理课](https://class.coursera.org/reactive-002/lecture)
-###[响应式编程CocoaReactive](http://www.raywenderlich.com/62796/reactivecocoa-tutorial-pt2)
+
+[响应式编程CocoaReactive](http://www.raywenderlich.com/62796/reactivecocoa-tutorial-pt2)
 
 ###测试驱动开发
-
 ####BDD
 [iOS BDD 开发](http://www.cocoachina.com/industry/20140218/7841.html)
 
@@ -47,10 +47,6 @@ Tags:iOS决
 
 [Table View Programming Guide for iOS](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html#//apple_ref/doc/uid/TP40007451
 )
-
-#知名论坛
-##[CocoaChina之iOS板块](http://www.cocoachina.com/ios/)
-##[Ray Wenderlich](http://www.raywenderlich.com)
 
 #技术原理
 ##CS入门
@@ -93,7 +89,19 @@ AT(算法思想)
 #同行
 [火辣健身](http://yyny.me)
 
+
+
+#知名网站
+[CocoaChina之iOS板块](http://www.cocoachina.com/ios/)
+
+[Ray Wenderlich](http://www.raywenderlich.com)
+
+[tumblr](https://www.tumblr.com/dashboard)
+
+
 #大腿
+
+
 ##iOS
 [Samuel E. Giddins](http://segiddins.me/) _ CocoaPod, Realm 作者 
 
@@ -192,3 +200,8 @@ AT(算法思想)
 [能进能退乃真正法器 如何成为DotA逃生大师
 ](http://fight.pcgames.com.cn/warcraft/dota/gl/1108/2291302_all.html#content_page_1)
 
+#Pic 
+
+[Carbon Fiber](http://blog.spoongraphics.co.uk/freebies/5-genuine-carbon-fiber-textures-for-photoshop)
+
+[Carbon](http://blog.spoongraphics.co.uk/freebies/5-genuine-carbon-fiber-textures-for-photoshop)
