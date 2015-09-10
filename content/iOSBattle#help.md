@@ -179,10 +179,13 @@ AT(算法思想)
 
 [iOS开发的22个奇葩技巧](http://bbs.itcast.cn/thread-51807-1-1.html)
 
+[iOS开发常用细节](http://www.tuicool.com/articles/E7jI322)
+
 [ssh-keys 生成方法](https://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys) _ 开源中国
 
 [让你的 OSX 拥有完整的 Emacs Binding](https://ruby-china.org/topics/12479)
-
+##小步迈进
+[寒哥教你学iOS](http://www.jianshu.com/p/cb54054d3add)
 #Mac软件站
 [未来软件站](http://www.orsoon.com/Mac/62084.html)
 
