@@ -48,6 +48,7 @@ Tags:iOS决
 [Table View Programming Guide for iOS](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html#//apple_ref/doc/uid/TP40007451
 )
 
+[tableView 里按钮延迟高亮解决办法](http://blog.csdn.net/hyugahinat/article/details/46291813)
 #技术原理
 ##CS入门
 
