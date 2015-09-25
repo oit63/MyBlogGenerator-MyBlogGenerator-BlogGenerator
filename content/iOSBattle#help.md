@@ -49,7 +49,14 @@ Tags:iOS决
 )
 
 [tableView 里按钮延迟高亮解决办法](http://blog.csdn.net/hyugahinat/article/details/46291813)
-#技术原理
+
+##ViewController
+[ViewController 传值](http://www.tuicool.com/articles/uuAv2ia)
+
+###Wifi 
+[获取SSID](http://www.cnblogs.com/visen-0/p/3337426.html) 
+
+[或者是](http://www.cocoachina.com/bbs/read.php?tid=258906)
 ##CS入门
 
 ###SICP（MIT）
@@ -80,17 +87,12 @@ AT(算法思想)
 
 
 #规模开发技术
-##ViewController
-[ViewController 传值](http://www.tuicool.com/articles/uuAv2ia)
+##PHP 后台
+[PHP 做后台](http://www.cnblogs.com/rayshen/p/4605955.html)
 
+[PHP 后台 完整版](http://www.cnblogs.com/shangdahao/archive/2013/06/01/3111755.html)
 ##应用截图
 [如何制作优秀的应用截图](http://www.cocoachina.com/industry/20140708/9066.html)
-
-
-#同行
-[火辣健身](http://yyny.me)
-
-
 
 #知名网站
 [CocoaChina之iOS板块](http://www.cocoachina.com/ios/)
@@ -141,6 +143,15 @@ AT(算法思想)
 
 [南峰子](http://southpeak.github.io)
 
+[Michael Krause](http://krause-software.com)__from German RestartLessOften 作者
+
+[molon ](http://molon.me/)
+
+##同行
+[rayshen](http://www.cnblogs.com/rayshen/p/4604219.html)
+###同行应用
+[火辣健身](http://yyny.me)
+
 
 ##Front - end
 
@@ -162,9 +173,20 @@ AT(算法思想)
 
 [BreakPoint LLDB Chisel](http://blog.csdn.net/colorapp/article/details/47089549)
 
+[携程App的网络性能优化实践](http://www.hrchen.com/2015/04/how-ctrip-improves-app-networking-performance/)
+
+#Git Repo
+##私有
+[bitbucket](https://bitbucket.org/)
+
+[osc]
 
 #第三方Snippet
 ##代码栈
+[Open Framworks]
+
+[controls]
+
 [code4app](http://old.code4app.com/ios/iOSSharedViewTransition/54057c24933bf0bb3a8b5385)
 
 [懒人代码库](http://www.lanrenios.com)
@@ -187,10 +209,23 @@ AT(算法思想)
 [让你的 OSX 拥有完整的 Emacs Binding](https://ruby-china.org/topics/12479)
 ##小步迈进
 [寒哥教你学iOS](http://www.jianshu.com/p/cb54054d3add)
+
+#配套软件
+
 #Mac软件站
 [未来软件站](http://www.orsoon.com/Mac/62084.html)
+#云
+[up云](https://www.upyun.com/notice.html)
 
+[leanCloud](leancloud.com)
+#工具
+[让你的 OSX 拥有完整的 Emacs Binding.](https://ruby-china.org/topics/1247)
 
+[emacs 配置](http://roupam.github.io)
+
+[Projectile 快速访问来管理项目](http://m.blog.csdn.net/blog/bbeikke/8644011)
+
+[ASCII.IO：记录并炫一炫你的Terminal代码](http://www.waerfa.com/ascii-io)
 #职业
 [JobDeer](JobDeer.com)
 
