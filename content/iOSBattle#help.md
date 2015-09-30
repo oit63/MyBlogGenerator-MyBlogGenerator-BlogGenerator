@@ -50,13 +50,18 @@ Tags:iOS决
 
 [tableView 里按钮延迟高亮解决办法](http://blog.csdn.net/hyugahinat/article/details/46291813)
 
-##ViewController
+###ViewController
 [ViewController 传值](http://www.tuicool.com/articles/uuAv2ia)
 
 ###Wifi 
 [获取SSID](http://www.cnblogs.com/visen-0/p/3337426.html) 
 
 [或者是](http://www.cocoachina.com/bbs/read.php?tid=258906)
+
+###后台播放音乐
+[后台播放音乐](http://www.cnblogs.com/easy-coding/p/3569227.html)
+
+
 ##CS入门
 
 ###SICP（MIT）
@@ -218,6 +223,9 @@ AT(算法思想)
 [up云](https://www.upyun.com/notice.html)
 
 [leanCloud](leancloud.com)
+
+[在线 MarkDown 编辑器](https://www.zybuluo.com/mdeditor)
+
 #工具
 [让你的 OSX 拥有完整的 Emacs Binding.](https://ruby-china.org/topics/1247)
 
