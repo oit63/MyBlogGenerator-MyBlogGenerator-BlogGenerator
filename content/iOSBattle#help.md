@@ -1,4 +1,4 @@
-Title:《iOS决》生存指南
+﻿Title:《iOS决》生存指南
 Date:2015-08-17
 Tags:iOS决
 > “一个无法改变你思维方式的编程语言是不值得学习的。"  
@@ -58,9 +58,12 @@ Tags:iOS决
 
 [或者是](http://www.cocoachina.com/bbs/read.php?tid=258906)
 
-###后台播放音乐
+###后台
 [后台播放音乐](http://www.cnblogs.com/easy-coding/p/3569227.html)
 
+[Background Fetch](http://www.cocoachina.com/industry/20131114/7350.html)
+
+[长时间运行](http://www.th7.cn/Program/IOS/201406/216928.shtml)
 
 ##CS入门
 
@@ -212,6 +215,7 @@ AT(算法思想)
 [ssh-keys 生成方法](https://git.oschina.net/oschina/git-osc/wikis/帮助#ssh-keys) _ 开源中国
 
 [让你的 OSX 拥有完整的 Emacs Binding](https://ruby-china.org/topics/12479)
+
 ##小步迈进
 [寒哥教你学iOS](http://www.jianshu.com/p/cb54054d3add)
 
@@ -224,7 +228,9 @@ AT(算法思想)
 
 [leanCloud](leancloud.com)
 
-[在线 MarkDown 编辑器](https://www.zybuluo.com/mdeditor)
+[在线 MarkDown 编辑器, 支持Vim](https://www.zybuluo.com/mdeditor)
+
+[JSFidle ](HTML5文字特效,模仿黑客帝国电影片头字幕效果,很多个文字排成列不断坠落,就像天上的流量一样下落,下落时候还有点拖尾的味道,主要是使用了HT)
 
 #工具
 [让你的 OSX 拥有完整的 Emacs Binding.](https://ruby-china.org/topics/1247)
