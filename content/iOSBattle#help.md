@@ -1,8 +1,12 @@
 ﻿Title:《iOS决》生存指南
 Date:2015-08-17
 Tags:iOS决
+#iOSBattle#help.md
+
 > “一个无法改变你思维方式的编程语言是不值得学习的。"  
 > Allan Perlis
+#环境配置
+[Sourabh 的配置](http://sourabhbajaj.com/mac-setup/index.html)
 
 #入门攻略
 [iOS 开发怎么入门？](http://www.zhihu.com/question/20264108)
@@ -58,7 +62,7 @@ Tags:iOS决
 
 [或者是](http://www.cocoachina.com/bbs/read.php?tid=258906)
 
-###后台
+###Background
 [后台播放音乐](http://www.cnblogs.com/easy-coding/p/3569227.html)
 
 [Background Fetch](http://www.cocoachina.com/industry/20131114/7350.html)
