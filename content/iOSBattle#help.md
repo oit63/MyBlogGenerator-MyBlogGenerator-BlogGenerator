@@ -236,6 +236,8 @@ AT(算法思想)
 
 [JSFidle ](HTML5文字特效,模仿黑客帝国电影片头字幕效果,很多个文字排成列不断坠落,就像天上的流量一样下落,下落时候还有点拖尾的味道,主要是使用了HT)
 
+https://getcloudapp.com/
+
 #工具
 [让你的 OSX 拥有完整的 Emacs Binding.](https://ruby-china.org/topics/1247)
 
@@ -244,6 +246,14 @@ AT(算法思想)
 [Projectile 快速访问来管理项目](http://m.blog.csdn.net/blog/bbeikke/8644011)
 
 [ASCII.IO：记录并炫一炫你的Terminal代码](http://www.waerfa.com/ascii-io)
+
+#UI
+http://www.uipixels.com/
+https://dribbble.com/
+http://freebiesbug.com/
+http://www.pixeden.com/
+[动态Blur](https://dribbble.com/shots/1210251-Live-Blur-Free-PSD)
+http://ivomynttinen.com/blog/the-ios-7-design-cheat-sheet/
 #职业
 [JobDeer](JobDeer.com)
 
