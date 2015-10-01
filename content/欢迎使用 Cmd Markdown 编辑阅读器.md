@@ -1,4 +1,7 @@
-﻿# 欢迎使用 Cmd Markdown 编辑阅读器
+﻿Title:test
+Date:2015-10-01
+Tags:test
+# 欢迎使用 Cmd Markdown 编辑阅读器
 
 ------
 

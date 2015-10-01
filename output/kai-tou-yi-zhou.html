@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>  开头一周
+ | 帆布'Blog</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content=""/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.0.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" href="/theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="/theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="/theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='//fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Feeds -->
+
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header>
+        <div class="page-header">
+            <a href="" class="avatar-container">
+              <div class="avatar  animate ">
+                <div class="side"><img src="/pic/8122371.jpg"/></div>
+                  <div class="side back"><p class="text-center">GNU iOS Helper From China</p></div>
+              </div>
+            </a>
+          <h1><a href="">帆布'Blog</a> <small>Open-Source iOS Software Engineer</small></h1>
+        </div>
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <a class="brand" href="" title="Open-Source iOS Software Engineer">帆布'Blog</a>
+            <ul class="nav">
+<li ><a href="/">Home</a></li>
+<li ><a href="/">Reverse</a></li>
+<li ><a href="/">Smart House</a></li>
+<li ><a href="/">Robert</a></li>
+<li ><a href="/">Swift</a></li>
+<li ><a href="/">C/C++</a></li>
+<li ><a href="/">Python</a></li>
+<li ><a href="/">Prolog</a></li>
+<li ><a href="/">About</a></li>
+            </ul>
+              <form class="navbar-search pull-right" action="http://www.google.com" target="_blank">
+                <input type="text" name="q" class="search-query span2" placeholder="Search"/>
+                <i class="fa fa-search fa-fw"></i>
+                <input type="hidden" name="cx" value="006364432850422186161:7vbi34hyqyq" />
+                <input type="hidden" name="ie" value="UTF-8" />
+              </form>
+          </div>
+        </div>
+      </header>
+
+      <section>
+
+        <div class="row">
+          <div class=" span9  ">
+  <h1>
+    <a href="/kai-tou-yi-zhou.html" rel="bookmark" title="Permalink to 开头一周">开头一周</a>
+  </h1>
+          </div>
+        </div>
+
+        <div class="row">
+
+
+          <div class=" span9 " id="content" role="main">
+  
+
+  <div>
+    <p>以后真的要制作一个 snippet，来生成 pelican 的格式，每次写作之前都要花时间来写开头的格式，确实也是个麻烦事。</p>
+<p>这一周开头挺好， 早上6:06 的时候，我和父母去把家里装修开了个头，就算是要正式开工了。</p>
+<p>然后回家吃了个丰富的早饭， 在8:13 的时候就来到了公司。</p>
+<p>因为没有带book 的电源线， 于是正好开始重新利用公司的电脑。 之前因为公司电脑内存太小， CPU一般，硬盘是机械的种种原因， 我就用了一段时间自己的电脑， 到了现在，因为带自己电脑上下班不太方便， 所以还是决定启用公司的电脑。</p>
+<p>自己带了一把 Kinesis Advantage， 写字就没那么累了。</p>
+<p>来了公司第一件事就是把 Xcode 更新到 7.0， 然后安装各种插件。 </p>
+<p>先安装 package manager : <a href="https://github.com/supermarin/Alcatraz">Alcatraz</a></p>
+<p>如果没有在 Windows 看到 Package Manager 菜单项。 
+则执行：</p>
+<p>find ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -name Info.plist -maxdepth 3 | xargs -I{} defaults write {} DVTPlugInCompatibilityUUIDs -array-add <code>defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID</code></p>
+<p>sudo xcode-select --reset</p>
+<p>如果该没有出现那个菜单项目，则再执行</p>
+<p>defaults delete com.apple.dt.Xcode DVTPlugInManagerNonApplePlugIns-Xcode-7.0</p>
+<p>Xvim  </p>
+<div class="highlight"><pre>替代 
+JumpMarks，
+jumper，
+SFJumpToLine
+XcodeBookmark
+XcodePlus Delete Line
+</pre></div>
+
+
+<p>blockJump
+MLAutoReplace</p>
+<div class="highlight"><pre><span class="err">替代</span><span class="n">ATProperty</span><span class="err">，</span>
+    <span class="n">CComment</span>  <span class="cm">/*/, /,*/</span><span class="err">，</span>
+    <span class="n">QuickLocalization</span>  <span class="n">Convert</span> <span class="s">@&quot;content&quot;</span> <span class="n">to</span> <span class="n">NSLocalizedString</span><span class="p">(</span><span class="s">@&quot;content&quot;</span><span class="p">,</span> <span class="s">@&quot;content&quot;</span><span class="p">)</span>
+    <span class="n">SCXcodeSwitchExpander</span>
+</pre></div>
+
+
+<p>Auto－importer 或者是 Peckham</p>
+<p>changemarks
+ColorSenseRainbow 或者 OMColorSense</p>
+<p>DBSmartPanels</p>
+<p>DCLazyInstantiate</p>
+<p>ESJsonFormat</p>
+<p>FuzzyAutocomplete</p>
+<p>HCTAutoFolding</p>
+<p>Helmet</p>
+<p>HighlightSelectedString</p>
+<p>HOStringSense</p>
+<p>HTYCopyIssue</p>
+<p>IconMaker</p>
+<p>Injection plugin</p>
+<div class="highlight"><pre>Injection for Xcode
+</pre></div>
+
+
+<p>intelliPaste</p>
+<div class="highlight"><pre>或者
+</pre></div>
+
+
+<p>XcodeBoost<br />
+<img alt="fs" src="https://github.com/fortinmike/XcodeBoost/raw/master/Images/menu.png" /></p>
+<p>JDPluginManager</p>
+<p>JKBlockCommenter   ⌘⌥/ </p>
+<p>KKHighlightRecentPlugin</p>
+<p>KPRunEverywhereXcodePlugin  Run Everywhere ⌃ + ⌥ + ⌘ + R  Stop Everywhere ⌃ + ⌥ + ⌘ + .</p>
+<p>KSImageNamed</p>
+<p>OpenQuiklyCtrlNP
+PrettyPrintJSON
+Polychromatic  安装好以后去主题页面调色 ，不然默认是黑色 </p>
+<p>PuncoverPlugin</p>
+<p>QuickFind</p>
+<div class="highlight"><pre>Now with QuickFind, you just need to select something, and press CMD + F,
+QuickFind will open the find bar, put what you selected in the find bar 
+and start to find the next one. You can also press CMD + F again and again
+to find the next one (just forget CMD + E and CMD + G, you may only need 
+CMD + F )
+</pre></div>
+
+
+<p>QuickJump </p>
+<div class="highlight"><pre>Go to System Preferences &gt; Keyboard &gt; Shortcuts &gt; App shortcuts and press the + button
+</pre></div>
+
+
+<p>RegX </p>
+<div class="highlight"><pre>Pretty alignment ⌘ + F1 F2 F3 F4
+或者XAlign 只有一种风格 ⌥ + ⌘ + X
+</pre></div>
+
+
+<p>SCXcodeEditorInset</p>
+<p>SCXcodeMinimap</p>
+<p>SCXcodeTabSwitcher</p>
+<p>ShowInGithub</p>
+<p>SketchExporter</p>
+<p>SwipeGestureSwitcher   shortcut (cmd+ctrl+← and cmd+ctrl+→,</p>
+<p>TOCAssetCatalogBackground</p>
+<p>Tuna </p>
+<div class="highlight"><pre>Log 神器
+</pre></div>
+
+
+<p>Waka Time</p>
+<div class="highlight"><pre>或者 XContract for localuse
+</pre></div>
+
+
+<p>WarmingLightXcodePlugin</p>
+<p>WindowFlex</p>
+<p>XCActionBar</p>
+<div class="highlight"><pre>神器  Double tap CMD or press CMD+SHIFT+8
+</pre></div>
+
+
+<p>XcAddedMarkup</p>
+<div class="highlight"><pre>变身图文编辑器
+</pre></div>
+
+
+<p>Xcode_beginning_of_line</p>
+<div class="highlight"><pre>nice for kinesis advantage
+</pre></div>
+
+
+<p>Xcode_copy_line</p>
+<p><a href="https://github.com/robbiehanson/XcodeColors">XcodeColors</a>
+    NSLog(XCODE_COLORS_ESCAPE @"fg0,0,255;" @"Blue text" XCODE_COLORS_RESET);</p>
+<div class="highlight"><pre><span class="n">NSLog</span><span class="p">(</span><span class="n">XCODE_COLORS_ESCAPE</span> <span class="s">@&quot;bg220,0,0;&quot;</span> <span class="s">@&quot;Red background&quot;</span> <span class="n">XCODE_COLORS_RESET</span><span class="p">);</span>
+
+<span class="n">NSLog</span><span class="p">(</span><span class="n">XCODE_COLORS_ESCAPE</span> <span class="s">@&quot;fg0,0,255;&quot;</span>
+  <span class="n">XCODE_COLORS_ESCAPE</span> <span class="s">@&quot;bg220,0,0;&quot;</span>
+  <span class="s">@&quot;Blue text on red background&quot;</span>
+  <span class="n">XCODE_COLORS_RESET</span><span class="p">);</span>
+
+<span class="n">NSLog</span><span class="p">(</span><span class="n">XCODE_COLORS_ESCAPE</span> <span class="s">@&quot;fg209,57,168;&quot;</span> <span class="s">@&quot;You can supply your own RGB values!&quot;</span> <span class="n">XCODE_COLORS_RESET</span><span class="p">);</span>
+</pre></div>
+
+
+<p>XcodeMediaLibraryTweak</p>
+<p>Xcode Refactoring Plus</p>
+<div class="highlight"><pre>Delete Line (cmd+D)
+Delete the line or current selected lines.
+Duplicate Line (alt+cmd+down
+Duplicate the line or current selected lines.
+Move Line (alt+down | alt+up)
+Move the line or current selected lines
+Extract Local Variable (alt+cmd+l)
+Extract the inline code into local variable within the method
+</pre></div>
+
+
+<p>XcodeWay
+<img alt="xcw" src="https://camo.githubusercontent.com/5b08e1707f962d315fce7364be90beb5aa0f7b1e/687474703a2f2f6935392e74696e797069632e636f6d2f62666d6579392e706e67" /></p>
+<p>XCommentWrap</p>
+<p>infer
+    static analysis tool</p>
+<p>LXCXcodeAssist </p>
+<div class="highlight"><pre>Smarter ⌘+← and ⌘ + ⇧ + ←
+
+Move/Select cursor to position before first non-white space character instead of very beginning of the line
+</pre></div>
+
+
+<p>XLocation</p>
+<div class="highlight"><pre>for ui pick location
+</pre></div>
+
+
+<p>Xprop </p>
+<div class="highlight"><pre>will hide all garbage from the Document Items menu. As result, no more distraction.  when ctr-6
+</pre></div>
+
+
+<p>XQuit</p>
+<div class="highlight"><pre>ask you whether quit Xcode
+</pre></div>
+
+
+<p>XReset 
+    reset iOS Simulators Content and Settings</p>
+<p>XToDo</p>
+<div class="highlight"><pre>神器 准确标记目标
+</pre></div>
+
+
+<p>XTrello</p>
+<div class="highlight"><pre>for trello
+</pre></div>
+
+
+<p><a href="https://github.com/boyXiong/XWJsonToCode">XWJsonToCode</a>
+<img alt="c" src="https://camo.githubusercontent.com/eecdbb902060ecb7dae7315dfdc90c5a64521460/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313530373331303032313534303432" /></p>
+<p>ZKKeyBindingsTeacher</p>
+<div class="highlight"><pre>神器，教一些常用的按键绑定
+</pre></div>
+
+
+<p>ZLCheckFilePlugin-Xcode</p>
+<div class="highlight"><pre> 检查多余的文件 File -&gt; Look check
+</pre></div>
+
+
+<p>ZLGotoSandbox </p>
+<div class="highlight"><pre>较快去sanbox
+Support When running the simulator shortcut keys (&#39;Shift + Common + w&#39;) Jump Sandbox.
+</pre></div>
+
+
+<p>ZLXCodeLine</p>
+<div class="highlight"><pre>统计代码行数
+</pre></div>
+
+
+<p>ZMDocItemInspector</p>
+<div class="highlight"><pre> converts the Quick Help inspector into an always visible Document Items inspector.
+</pre></div>
+
+
+<p>WCGitTagsPlugin
+SuggetsedColors
+Snapshots
+RSImageOptimPlugin
+RRConstraintsPlugin
+RevealPlugin 
+Remote<br />
+RealmBrowser
+KSHObjcUML
+Open With Application
+OFXcodeMenu
+ObjectGraph-Xcode</p>
+<div class="highlight"><pre>KSHObjcUML
+Xprobe  或许更好， 可以动态显示
+</pre></div>
+
+
+<p>NJHMultiTheme
+NCSimulatorPlugin
+MCLog
+MarvinPlugin show collection of commands
+instaCodesPlugin
+coPilot
+Distraction free mode zen
+DerivedData Exterminator
+CocoaControls
+AutoIndentWithSave
+BTGistPost</p>
+<div class="highlight"><pre>或者 XCSnippetr
+</pre></div>
+
+
+<p>AutoImporter
+ACCCodeSnippetRespository
+AMMethod2Implement</p>
+<p>PluginConsole
+PluginPannel with TimePlugin
+RedXcode</p>
+<p>unknown 
+seguecode
+Stencil
+SYConfigurableVariable
+SymbolicationPlugin
+unTrashed-Files
+VariablesViewFullCopy
+XCFixin_CustomizeWarningErrorHighlights
+XcodeAutoBasher
+XCoverage</p>
+<p>swift
+https://github.com/burczyk/XcodeSwiftSnippets</p>
+<p>gem install
+fui  and xcodeproj
+    for xcfui
+    如果 安装失败，就添加淘宝源 
+    sudo gem sources -r https://rubygems.org
+    sudo gem sources -a http://ruby.taobao.org</p>
+<p>maybe tasty
+Xcode Explorer</p>
+<p>63 code bundles</p>
+<p>links</p>
+<p>wakatime.com</p>
+  </div>
+
+
+
+          </div>
+
+            <div class="span3">
+  <div class="well">
+
+    <p><abbr class="fa fa-calendar" title="2015-09-28T00:00:00+08:00"> 一 28 九月 2015</abbr></p>
+
+      <p><address class="fa fa-user"> By <a href="/author/fab.html" rel="author">FAB</a></address></p>
+
+
+    <hr/>
+
+      <p>
+              <a href="/category/misc.html" rel="tag tooltip" class="label label-info" data-placement="right" data-original-title="28 articles in this category">misc</a>
+            <a href="/tag/workday.html" rel="tooltip" class="label" data-placement="right" data-original-title="2 articles with this tag">WorkDay</a>
+      </p>
+      <hr/>
+
+
+
+  </div>
+              
+            </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="span2">
+                <h5>Social</h5>
+                <ul class="unstyled">
+                  <li>  <a href="https://github.com/ForrestAlfred">
+      <i class="fa fa-github"></i>
+    Github
+  </a></li>
+                </ul>
+            </div>
+            <div class="span2">
+                <h5>Links</h5>
+                <ul class="unstyled">
+                  <li>  <a href="http://getpelican.com/">
+      <img src="http://grabicon.com/icon?domain=getpelican.com&size=16" width="16" height="16" class="icon" alt="getpelican.com icon"/>
+    Pelican
+  </a></li>
+                  <li>  <a href="http://python.org/">
+      <img src="http://grabicon.com/icon?domain=python.org&size=16" width="16" height="16" class="icon" alt="python.org icon"/>
+    Python.org
+  </a></li>
+                  <li>  <a href="http://jinja.pocoo.org/">
+      <img src="http://grabicon.com/icon?domain=jinja.pocoo.org&size=16" width="16" height="16" class="icon" alt="jinja.pocoo.org icon"/>
+    Jinja2
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="span2">
+            <h5>Browse content by</h5>
+            <ul class="fa-ul">
+
+            </ul>
+          </div>
+
+          <div class="span2 muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2015 FAB.</p>
+          </div>
+
+          <div class="span2 muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="span2">
+            <h5 class="pull-right"><a href="#" class="fa fa-arrow-up"> Back to top</a></h5>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row span12 muted text-center">
+          Site generated by <a href="http://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="http://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script src="/theme/js/jquery.mglass.js"></script>
+    <script src="/theme/js/application.js"></script>
+
+  </body>
+</html>
